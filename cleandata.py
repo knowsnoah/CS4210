@@ -37,7 +37,13 @@ model = df['model']
 model_year = df['model_year']
 
 #getting fuel_type
-fuel_type = df['fuel_type'].fillna('Other')
+fuel_type = df['fuel_type'].fillna('Other').replace('-', 'Other')
+
+#normalizing the fuel_type
+bad_tokens = ['-', '–', '—', '', 'nan', 'None', 'not supported']
+#replacing the bad tokens with 'other'
+fuel_type = (
+    df['fuel_type'].astype('string').str.strip().replace(bad_tokens, pd.NA).fillna('Other'))
 
 #tunring clean_title into true(1) or false(1) instead of Yes and No 
 clean_title = df['clean_title'].fillna('No').str.strip().str.title().map({"Yes": 1, "No": 1})

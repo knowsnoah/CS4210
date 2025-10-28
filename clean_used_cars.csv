@@ -129,7 +129,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 3,A7 Premium Plus,2020,25361.0,Hybrid,A/T,1,49998.0
 3,Q7 3.0T Premium Plus,2015,98527.0,Gasoline,A/T,1,9995.0
 30,Air Pure,2023,1300.0,Other,A/T,1,86900.0
-10,Pacifica Touring,2017,87305.0,–,A/T,1,9000.0
+10,Pacifica Touring,2017,87305.0,Other,A/T,1,9000.0
 3,TTS 2.0T Premium Plus,2012,72922.0,Gasoline,A/T,1,25999.0
 4,650 Gran Coupe i xDrive,2015,41000.0,Gasoline,A/T,1,30000.0
 50,Forester Premium,2021,42125.0,Gasoline,CVT,1,27899.0
@@ -256,7 +256,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 25,Huracan Tecnica Coupe,2023,278.0,Gasoline,A/T,1,359991.0
 1,Romeo Giulia Quadrifoglio,2022,1966.0,Gasoline,A/T,1,75900.0
 9,Trailblazer LT,2021,50648.0,Gasoline,CVT,1,23995.0
-53,Land Cruiser Base,1993,231500.0,–,A/T,1,29500.0
+53,Land Cruiser Base,1993,231500.0,Other,A/T,1,29500.0
 25,Urus Base,2021,13692.0,Gasoline,A/T,1,257000.0
 20,G37 x,2013,60058.0,Gasoline,A/T,1,15000.0
 32,Levante S,2017,54423.0,Gasoline,A/T,1,33950.0
@@ -337,7 +337,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 32,GranTurismo Sport,2015,45000.0,Gasoline,A/T,1,41900.0
 4,540 i xDrive,2020,37426.0,Gasoline,A/T,1,39998.0
 20,M56 Base,2011,137000.0,Gasoline,Other,1,8500.0
-34,Mazda3 s Grand Touring,2016,85000.0,–,A/T,1,18500.0
+34,Mazda3 s Grand Touring,2016,85000.0,Other,A/T,1,18500.0
 9,Corvette Stingray w/1LT,2023,4000.0,Gasoline,A/T,1,73900.0
 3,Q5 S line Premium Plus,2023,4648.0,Hybrid,A/T,1,47598.0
 27,GX 460 Base,2018,52100.0,Gasoline,A/T,1,38000.0
@@ -490,7 +490,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 8,Escalade Premium,2015,71000.0,Gasoline,A/T,1,35999.0
 0,RDX Technology Package,2020,31015.0,Gasoline,A/T,1,36570.0
 4,X2 xDrive28i,2022,33000.0,Gasoline,Other,1,29999.0
-10,Pacifica Touring,2017,63000.0,–,A/T,1,20000.0
+10,Pacifica Touring,2017,63000.0,Other,A/T,1,20000.0
 7,Verano Convenience,2013,68325.0,E85 Flex Fuel,Other,1,11995.0
 36,AMG S 63 Base 4MATIC,2020,20937.0,Gasoline,A/T,1,104900.0
 44,2500 Tradesman,2021,34365.0,Gasoline,A/T,1,48000.0
@@ -691,7 +691,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 8,Escalade EXT Base,2009,155000.0,E85 Flex Fuel,A/T,1,16900.0
 49,tC Release Series 6.0,2010,120010.0,Gasoline,A/T,1,6500.0
 24,Optima EX,2012,152520.0,Gasoline,A/T,1,10900.0
-17,Civic EX,1993,58981.0,–,A/T,1,9599.0
+17,Civic EX,1993,58981.0,Other,A/T,1,9599.0
 32,Quattroporte Base,2005,32000.0,Gasoline,Other,1,2954083.0
 43,Panamera Turbo,2015,47000.0,Gasoline,Other,1,50000.0
 16,G70 2.0T,2023,2046.0,Gasoline,A/T,1,43499.0
@@ -854,7 +854,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 22,Wrangler Unlimited Sport,2020,24040.0,Gasoline,A/T,1,35273.0
 53,Highlander Base,2001,231581.0,Gasoline,A/T,1,4300.0
 14,F-150 Lariat,2019,81000.0,Gasoline,A/T,1,38500.0
-14,Bronco,1974,6217.0,–,Other,1,115000.0
+14,Bronco,1974,6217.0,Other,Other,1,115000.0
 26,Rover Discovery Sport S R-Dynamic,2022,23568.0,Gasoline,A/T,1,44998.0
 34,Mazda6 Touring,2020,78700.0,Gasoline,A/T,1,18000.0
 24,Optima EX,2015,109580.0,Gasoline,A/T,1,11900.0
@@ -922,7 +922,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 19,Tucson Limited,2020,39913.0,Gasoline,A/T,1,22749.0
 14,Mustang V6,2013,147191.0,Gasoline,A/T,1,12990.0
 4,435 i,2014,53600.0,Gasoline,A/T,1,25980.0
-11,Challenger R/T,2010,100100.0,–,Other,1,17000.0
+11,Challenger R/T,2010,100100.0,Other,Other,1,17000.0
 36,AMG G 63 Base,2020,1750.0,Gasoline,A/T,1,199995.0
 11,Challenger SRT Hellcat,2020,2750.0,Gasoline,A/T,1,104500.0
 43,Boxster Base,2013,40800.0,Gasoline,A/T,1,35500.0
@@ -994,7 +994,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 4,X6 xDrive35i,2009,92008.0,Gasoline,A/T,1,12500.0
 14,Mustang Base,1998,63900.0,Gasoline,A/T,1,10300.0
 53,Sequoia Limited,2012,150900.0,Gasoline,A/T,1,17500.0
-11,Challenger R/T Scat Pack,2019,43000.0,–,Manual,1,50000.0
+11,Challenger R/T Scat Pack,2019,43000.0,Other,Manual,1,50000.0
 26,Rover Range Rover 3.0L Supercharged,2018,38020.0,Gasoline,A/T,1,63998.0
 3,Q8 55 Premium Plus,2021,14750.0,Hybrid,Other,1,61059.0
 50,WRX Base,2015,52500.0,Gasoline,Manual,1,23000.0
@@ -1062,7 +1062,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 32,Quattroporte Sport GT,2007,82000.0,Gasoline,Other,1,7999.0
 11,Viper GTC,2017,1389.0,Gasoline,Manual,1,489995.0
 14,Expedition Limited,2021,29830.0,Gasoline,A/T,1,55329.0
-34,Mazda6 i Grand Touring,2016,83100.0,–,A/T,1,17800.0
+34,Mazda6 i Grand Touring,2016,83100.0,Other,A/T,1,17800.0
 24,Optima LX,2019,62660.0,Gasoline,A/T,1,16500.0
 26,Rover Range Rover Sport SVR,2018,56006.0,Gasoline,Other,1,59000.0
 27,RX 450h F SPORT Handling,2021,31365.0,Hybrid,Other,1,52998.0
@@ -1082,12 +1082,12 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 36,S-Class S 560 4MATIC,2020,22000.0,Gasoline,A/T,1,69500.0
 14,Bronco Wildtrak Advanced,2023,2000.0,Gasoline,A/T,1,66500.0
 44,1500 SLT,2018,61802.0,E85 Flex Fuel,A/T,1,32000.0
-11,Challenger R/T,2010,73000.0,–,A/T,1,17500.0
-9,Sonic LT,2013,110000.0,–,A/T,1,7500.0
+11,Challenger R/T,2010,73000.0,Other,A/T,1,17500.0
+9,Sonic LT,2013,110000.0,Other,A/T,1,7500.0
 22,Grand Cherokee Laredo,2013,106700.0,E85 Flex Fuel,A/T,1,13500.0
 3,RS 5 4.2,2013,75965.0,Gasoline,A/T,1,35999.0
 22,Grand Cherokee L Overland,2022,31804.0,Gasoline,A/T,1,48995.0
-34,MX-5 Miata Base,1992,125800.0,–,Manual,1,11500.0
+34,MX-5 Miata Base,1992,125800.0,Other,Manual,1,11500.0
 10,Crossfire Limited,2005,116320.0,Gasoline,A/T,1,6000.0
 3,S5 4.2 Premium Plus,2011,156875.0,Gasoline,Manual,1,9900.0
 52,Model X Base,2023,197.0,Other,A/T,1,85000.0
@@ -1133,7 +1133,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 28,MKX Reserve,2016,88000.0,Gasoline,Other,1,18500.0
 39,Armada Platinum,2018,42833.0,Gasoline,Other,1,37000.0
 43,911 Carrera,2020,23278.0,Gasoline,A/T,1,114998.0
-36,E-Class 400E,1993,106983.0,–,A/T,1,15300.0
+36,E-Class 400E,1993,106983.0,Other,A/T,1,15300.0
 4,435 Gran Coupe i,2015,60100.0,Gasoline,A/T,1,24995.0
 22,Wagoneer Series III,2022,17381.0,Gasoline,A/T,1,69685.0
 8,ATS 2.5L,2013,63172.0,Gasoline,A/T,1,12995.0
@@ -1268,7 +1268,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 20,Q50 Premium,2014,79785.0,Gasoline,A/T,1,16488.0
 9,Suburban Premier,2017,166549.0,Gasoline,A/T,1,24950.0
 53,Sequoia Limited,2006,190656.0,Gasoline,A/T,1,8900.0
-11,Challenger R/T Scat Pack,2016,7928.0,–,Manual,1,37500.0
+11,Challenger R/T Scat Pack,2016,7928.0,Other,Manual,1,37500.0
 43,Cayenne GTS,2009,135606.0,Gasoline,Other,1,15000.0
 24,Telluride S,2023,14700.0,Gasoline,A/T,1,39900.0
 36,AMG E 63 S 4MATIC,2019,12985.0,Gasoline,A/T,1,96000.0
@@ -1293,7 +1293,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 8,CTS Luxury,2012,62500.0,Gasoline,A/T,1,18955.0
 4,323 Ci,2000,177700.0,Gasoline,A/T,1,2500.0
 52,Model 3 Standard Range Plus,2019,83700.0,Other,A/T,1,26000.0
-9,1500 Cheyenne Extended Cab,1995,120000.0,–,A/T,1,6500.0
+9,1500 Cheyenne Extended Cab,1995,120000.0,Other,A/T,1,6500.0
 39,370Z Touring,2012,65000.0,Gasoline,Manual,1,21500.0
 36,GLS 450 Base 4MATIC,2018,62808.0,Gasoline,A/T,1,38598.0
 14,Mustang GT Premium,2021,3000.0,Gasoline,Manual,1,49500.0
@@ -1354,7 +1354,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 36,Sprinter 2500,2011,120000.0,Diesel,A/T,1,31999.0
 53,Sequoia Platinum,2023,325.0,Hybrid,A/T,1,84997.0
 32,Quattroporte S GranLusso,2017,55000.0,Gasoline,A/T,1,39100.0
-53,Land Cruiser Base,1996,233000.0,–,A/T,1,7500.0
+53,Land Cruiser Base,1996,233000.0,Other,A/T,1,7500.0
 25,Aventador SVJ Base,2021,6987.0,Gasoline,Other,1,749950.0
 14,Mustang Bullitt,2019,48500.0,Gasoline,Manual,1,44999.0
 44,2500 Tradesman,2018,52000.0,Diesel,A/T,1,50000.0
@@ -1614,7 +1614,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 50,Impreza 2.0i Premium,2013,112000.0,Gasoline,CVT,1,9999.0
 4,M3 Base,2016,55250.0,Gasoline,Manual,1,49999.0
 20,QX80 Luxe,2020,69000.0,Gasoline,A/T,1,31450.0
-46,Phantom,2023,1560.0,–,Other,1,599995.0
+46,Phantom,2023,1560.0,Other,Other,1,599995.0
 14,Mustang GT Premium,2016,40570.0,Gasoline,Manual,1,30490.0
 53,RAV4 TRD Off Road,2020,46500.0,Gasoline,A/T,1,35200.0
 17,S2000 Base,2000,26900.0,Gasoline,Manual,1,35000.0
@@ -1642,7 +1642,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 17,Accord EX-L 2.0T,2019,40069.0,Gasoline,A/T,1,27500.0
 50,WRX Base,2017,60930.0,Gasoline,Manual,1,23750.0
 3,A4 2.0T Titanium Premium,2019,7300.0,Gasoline,A/T,1,27900.0
-14,Mustang EcoBoost Premium,2018,34000.0,–,A/T,1,25000.0
+14,Mustang EcoBoost Premium,2018,34000.0,Other,A/T,1,25000.0
 9,Avalanche 1500 LS,2012,56000.0,E85 Flex Fuel,A/T,1,18000.0
 36,CLA-Class CLA 250,2014,136000.0,Gasoline,Other,1,12000.0
 4,228 Gran Coupe i xDrive,2020,31100.0,Gasoline,A/T,1,26999.0
@@ -1680,7 +1680,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 20,QX60 Base,2014,154247.0,Gasoline,A/T,1,12500.0
 9,Silverado 2500 LTZ H/D Extended Cab,2008,128000.0,Gasoline,A/T,1,23500.0
 32,GranTurismo Base,2008,70000.0,Gasoline,A/T,1,13000.0
-0,Integra GS-R,1995,123000.0,–,Manual,1,10999.0
+0,Integra GS-R,1995,123000.0,Other,Manual,1,10999.0
 4,X6 M Base,2016,52375.0,Gasoline,A/T,1,48600.0
 10,300 S,2016,100574.0,Gasoline,A/T,1,17500.0
 10,300 Base,2014,85000.0,Gasoline,A/T,1,11250.0
@@ -1745,7 +1745,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 21,F-TYPE R,2018,16002.0,Gasoline,A/T,1,74900.0
 53,FJ Cruiser Base,2014,86000.0,Gasoline,A/T,1,41500.0
 53,Tundra SR5,2019,56000.0,Gasoline,A/T,1,42000.0
-39,300ZX Base,1993,168000.0,–,Manual,1,7000.0
+39,300ZX Base,1993,168000.0,Other,Manual,1,7000.0
 44,1500 Sport,2017,41789.0,Gasoline,A/T,1,42500.0
 14,Focus SE,2014,60109.0,E85 Flex Fuel,A/T,1,9499.0
 36,GLE 350 Base 4MATIC,2020,48000.0,Gasoline,A/T,1,49995.0
@@ -1804,7 +1804,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 14,F-150 XLT,2018,67650.0,Gasoline,A/T,1,30000.0
 27,ES 350 Base,2016,119850.0,Gasoline,A/T,1,19000.0
 0,TL Type S,2008,116500.0,Gasoline,Manual,1,15999.0
-37,Capri XR2,1993,120644.0,–,Manual,1,4200.0
+37,Capri XR2,1993,120644.0,Other,Manual,1,4200.0
 14,Transit Connect XLT,2010,169802.0,Gasoline,A/T,1,9985.0
 4,X3 M40i,2021,36905.0,Gasoline,Other,1,50000.0
 22,Gladiator Willys,2022,8400.0,Gasoline,A/T,1,47000.0
@@ -1955,7 +1955,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 4,X5 xDrive35i,2013,76309.0,Gasoline,A/T,1,12000.0
 52,Model 3,2018,26609.0,Other,A/T,1,36998.0
 26,Rover Range Rover P400 SE LWB 7 Seat,2023,4126.0,Hybrid,A/T,1,155000.0
-39,240SX Base,1996,160490.0,–,Manual,1,15500.0
+39,240SX Base,1996,160490.0,Other,Manual,1,15500.0
 8,ATS 2.5L,2014,80400.0,Gasoline,A/T,1,15000.0
 53,RAV4 Base,2010,123620.0,Gasoline,A/T,1,9900.0
 0,TSX Technology,2011,187883.0,Gasoline,A/T,1,5500.0
@@ -2025,7 +2025,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 4,750 i,2008,94653.0,Gasoline,A/T,1,7300.0
 14,Expedition Limited,2023,9281.0,Gasoline,A/T,1,85000.0
 9,Traverse Premier,2023,11806.0,Gasoline,A/T,1,47000.0
-36,E-Class D 2.5 Turbo,1993,70015.0,–,A/T,1,22500.0
+36,E-Class D 2.5 Turbo,1993,70015.0,Other,A/T,1,22500.0
 8,Escalade Platinum,2020,48613.0,Gasoline,A/T,1,61500.0
 44,3500 Tradesman,2023,2990.0,Diesel,A/T,1,69900.0
 3,TT 1.8L,2005,124747.0,Gasoline,Other,1,6900.0
@@ -2102,7 +2102,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 53,Tacoma Base,2020,27256.0,Gasoline,Other,1,42998.0
 18,H3 Base,2010,107481.0,Gasoline,A/T,1,13500.0
 52,Model 3 Long Range,2018,61700.0,Other,A/T,1,25900.0
-55,850 Turbo,1995,94000.0,–,A/T,1,4500.0
+55,850 Turbo,1995,94000.0,Other,A/T,1,4500.0
 22,Wrangler Unlimited Sahara,2017,128000.0,Gasoline,A/T,1,26800.0
 9,Camaro 2SS,2018,26000.0,Gasoline,A/T,1,39000.0
 3,S6 4.0T,2015,74000.0,Gasoline,A/T,1,29950.0
@@ -2114,7 +2114,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 14,F-250 XL,2014,35900.0,E85 Flex Fuel,Other,1,27900.0
 15,Yukon XL Denali,2022,48306.0,Gasoline,A/T,1,71999.0
 3,A4 2.0T Premium,2012,125000.0,Gasoline,A/T,1,10500.0
-11,Challenger SRT 392,2016,37700.0,–,A/T,1,38000.0
+11,Challenger SRT 392,2016,37700.0,Other,A/T,1,38000.0
 52,Model S P100D,2017,103000.0,Other,A/T,1,36000.0
 34,CX-30 Premium Package,2021,45303.0,Gasoline,A/T,1,25382.0
 27,ES 350 Base,2016,53900.0,Gasoline,A/T,1,27500.0
@@ -2302,7 +2302,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 4,M5 Base,2021,13250.0,Gasoline,A/T,1,86900.0
 26,Rover Range Rover 3.0L V6 Supercharged HSE,2019,41200.0,Gasoline,Other,1,60500.0
 8,Escalade ESV Luxury,2016,116500.0,Gasoline,A/T,1,30500.0
-0,NSX Base,1993,75980.0,–,A/T,1,90200.0
+0,NSX Base,1993,75980.0,Other,A/T,1,90200.0
 9,Corvette Z06,2018,24059.0,Gasoline,A/T,1,87150.0
 3,Q5 2.0T Premium Plus,2015,118500.0,E85 Flex Fuel,A/T,1,15400.0
 4,ALPINA B7 ALPINA B7 xDrive,2020,15097.0,Gasoline,A/T,1,99998.0
@@ -2446,8 +2446,8 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 36,R-Class R 350 4MATIC,2008,120000.0,Gasoline,A/T,1,8995.0
 9,Camaro 2SS,2018,75151.0,Gasoline,Manual,1,45000.0
 22,Wrangler Sport,2016,74139.0,Gasoline,Manual,1,23000.0
-9,1500 Cheyenne,1994,170443.0,–,A/T,1,6000.0
-21,XJ6 Vanden Plas,1995,70000.0,–,A/T,1,19000.0
+9,1500 Cheyenne,1994,170443.0,Other,A/T,1,6000.0
+21,XJ6 Vanden Plas,1995,70000.0,Other,A/T,1,19000.0
 4,550 i xDrive,2012,68500.0,Gasoline,Other,1,17800.0
 27,GX 460 Luxury,2020,37366.0,Gasoline,A/T,1,51890.0
 52,Model S Long Range,2021,35315.0,Other,A/T,1,66900.0
@@ -2504,7 +2504,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 38,Lancer Sportback ES,2011,113000.0,Gasoline,Manual,1,5800.0
 43,Macan Base,2022,13000.0,Gasoline,A/T,1,60000.0
 36,CLK-Class CLK 350,2009,77925.0,Gasoline,Other,1,16500.0
-11,Challenger SRT8,2011,106500.0,–,A/T,1,22500.0
+11,Challenger SRT8,2011,106500.0,Other,A/T,1,22500.0
 34,Mazda3 Grand Touring,2018,15175.0,Gasoline,A/T,1,19212.0
 3,A3 2.0T Premium,2017,137000.0,Gasoline,A/T,1,10995.0
 4,528 i,2015,111000.0,Gasoline,A/T,1,15000.0
@@ -2573,7 +2573,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 9,Corvette Base,2004,37622.0,Gasoline,A/T,1,25500.0
 53,Avalon Limited,2006,89987.0,Gasoline,A/T,1,9499.0
 20,QX80 Base,2015,136390.0,Gasoline,A/T,1,20470.0
-8,DeVille Base,1994,90000.0,–,A/T,1,2990.0
+8,DeVille Base,1994,90000.0,Other,A/T,1,2990.0
 9,Camaro 2SS,2015,27000.0,Gasoline,Other,1,33000.0
 22,Liberty Renegade,2004,144770.0,Gasoline,A/T,1,6500.0
 53,4Runner Trail,2011,157000.0,Gasoline,Other,1,23500.0
@@ -2607,7 +2607,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 35,570S Spider,2018,8984.0,Gasoline,A/T,1,171900.0
 9,Express 2500 Work Van,2017,76000.0,Gasoline,A/T,1,41400.0
 9,Traverse High Country,2020,56247.0,Gasoline,A/T,1,39244.0
-22,Wrangler S,1994,50750.0,–,Manual,1,15000.0
+22,Wrangler S,1994,50750.0,Other,Manual,1,15000.0
 0,ILX Technology Plus Package,2016,61000.0,Gasoline,A/T,1,21000.0
 9,Camaro 1LT,2019,9111.0,Gasoline,A/T,1,27599.0
 27,ES 350 Base,2015,100900.0,Gasoline,A/T,1,21998.0
@@ -2836,7 +2836,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 15,Yukon SLE,2017,96000.0,Gasoline,A/T,1,34000.0
 17,Pilot EX-L,2016,80500.0,Gasoline,A/T,1,23000.0
 3,A5 Sportback S line Premium Plus,2021,35000.0,Hybrid,A/T,1,37499.0
-43,911 Carrera,1995,49900.0,–,Manual,1,97993.0
+43,911 Carrera,1995,49900.0,Other,Manual,1,97993.0
 17,Civic Sport,2020,121212.0,Gasoline,CVT,1,18387.0
 36,G 550 4x4 Squared Base,2018,14381.0,Gasoline,A/T,1,204900.0
 43,Panamera Platinum Edition,2022,13500.0,Gasoline,A/T,1,86999.0
@@ -2853,7 +2853,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 0,RDX,2016,132252.0,Gasoline,A/T,1,18998.0
 53,Highlander XLE,2022,4437.0,Gasoline,Other,1,42000.0
 54,Golf GTI 2.0T SE 4-Door,2018,70500.0,Gasoline,Other,1,23000.0
-39,Pickup Truck XE,1994,89144.0,–,A/T,1,5899.0
+39,Pickup Truck XE,1994,89144.0,Other,A/T,1,5899.0
 53,Corolla CE,2008,170000.0,Gasoline,A/T,1,5199.0
 17,Element EX,2008,122000.0,Gasoline,A/T,1,10500.0
 53,Camry Solara SE,2008,57852.0,Gasoline,A/T,1,13900.0
@@ -2893,7 +2893,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 24,Telluride SX,2022,46347.0,Gasoline,A/T,1,46120.0
 9,Corvette Base,2007,4048.0,Gasoline,Manual,1,38000.0
 36,S-Class S 63 AMG,2015,79876.0,Gasoline,A/T,1,45750.0
-53,Mirai Limited,2021,44000.0,not supported,A/T,1,18500.0
+53,Mirai Limited,2021,44000.0,Other,A/T,1,18500.0
 1,Romeo Giulia Ti,2017,56910.0,Gasoline,Other,1,23000.0
 26,Rover Range Rover Sport HSE,2019,65019.0,Gasoline,A/T,1,40500.0
 39,370Z Touring,2009,133409.0,Gasoline,Manual,1,14999.0
@@ -3038,7 +3038,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 34,MazdaSpeed Miata MX-5 Base,2004,33362.0,Gasoline,Manual,1,17599.0
 15,Acadia Denali,2021,47907.0,Gasoline,A/T,1,38436.0
 36,Metris Base,2016,17340.0,Gasoline,A/T,1,29000.0
-8,DeVille Base,1994,85000.0,–,A/T,1,7900.0
+8,DeVille Base,1994,85000.0,Other,A/T,1,7900.0
 14,Expedition EL XLT,2011,195500.0,E85 Flex Fuel,A/T,1,8999.0
 9,Monte Carlo SS,2000,74000.0,Gasoline,A/T,1,4700.0
 44,1500 Big Horn,2015,140500.0,Gasoline,A/T,1,14000.0
@@ -3067,7 +3067,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 14,Fusion SE,2012,160000.0,E85 Flex Fuel,A/T,1,4500.0
 36,E-Class E 350,2012,95816.0,Gasoline,A/T,1,12000.0
 22,Wrangler Unlimited Sport,2014,132600.0,Gasoline,A/T,1,17000.0
-8,DeVille Base,1994,47000.0,–,A/T,1,5990.0
+8,DeVille Base,1994,47000.0,Other,A/T,1,5990.0
 22,Wrangler Sport,2010,149460.0,Gasoline,A/T,1,10700.0
 22,Wrangler Sport,2011,109646.0,Gasoline,A/T,1,16998.0
 0,MDX 3.5L w/Technology Package,2019,90605.0,Gasoline,A/T,1,27698.0
@@ -3149,7 +3149,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 24,Sportage LX,2014,87000.0,Gasoline,A/T,1,8900.0
 15,Yukon XL 1500 SLT,2015,145000.0,Gasoline,A/T,1,24950.0
 22,Wrangler Unlimited Sport,2020,33060.0,Gasoline,A/T,1,36500.0
-14,Bronco XLT,1995,195000.0,–,A/T,1,15000.0
+14,Bronco XLT,1995,195000.0,Other,A/T,1,15000.0
 52,Model S Long Range Plus,2021,10550.0,Other,A/T,1,67800.0
 3,A6 3.0T Prestige,2014,89500.0,Gasoline,Other,1,18000.0
 22,Wrangler 80th Anniversary,2021,27000.0,Hybrid,A/T,1,37500.0
@@ -3212,7 +3212,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 31,Countryman Cooper,2020,74725.0,Gasoline,A/T,1,21612.0
 34,CX-5 Grand Touring,2021,61117.0,Gasoline,A/T,1,26485.0
 4,325 i,2003,142000.0,Gasoline,Manual,1,4800.0
-14,Mustang EcoBoost Premium,2019,31000.0,–,Manual,1,34700.0
+14,Mustang EcoBoost Premium,2019,31000.0,Other,Manual,1,34700.0
 53,Yaris L,2012,129355.0,Gasoline,A/T,1,7950.0
 9,Express 1500 Base,2010,204000.0,E85 Flex Fuel,A/T,1,4900.0
 28,Navigator L Select,2016,115600.0,Gasoline,A/T,1,22500.0
@@ -3412,7 +3412,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 27,RX 350 Base,2021,30761.0,Gasoline,A/T,1,44950.0
 44,1500 Laramie,2022,13438.0,Gasoline,A/T,1,46599.0
 22,Gladiator Overland,2020,9100.0,Gasoline,A/T,1,49895.0
-10,200 Limited,2017,100600.0,–,A/T,1,10000.0
+10,200 Limited,2017,100600.0,Other,A/T,1,10000.0
 14,Fusion Hybrid Base,2011,223824.0,Hybrid,A/T,1,4500.0
 3,A6 2.0T Premium Plus,2016,96000.0,Gasoline,A/T,1,21990.0
 9,Silverado 1500 Z71 Extended Cab,2004,185000.0,Gasoline,A/T,1,10500.0
@@ -3468,7 +3468,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 52,Model 3 Long Range,2022,22457.0,Other,A/T,1,40036.0
 53,Camry XSE,2022,19361.0,Gasoline,A/T,1,38298.0
 4,i3 94 Ah,2017,43000.0,Other,A/T,1,16500.0
-14,F-250 XL SuperCab H/D,1993,115000.0,–,A/T,1,21900.0
+14,F-250 XL SuperCab H/D,1993,115000.0,Other,A/T,1,21900.0
 43,Taycan Turbo,2020,2076.0,Other,A/T,1,115998.0
 43,911 GT3,2018,9712.0,Gasoline,A/T,1,188900.0
 36,E-Class E55 AMG,2005,131000.0,Gasoline,A/T,1,16500.0
@@ -3571,7 +3571,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 27,RX 350 Base,2017,103866.0,Gasoline,A/T,1,24700.0
 26,Rover Range Rover 3.0L V6 Supercharged HSE,2019,35650.0,Gasoline,A/T,1,57999.0
 14,Explorer Platinum,2021,64957.0,Gasoline,A/T,1,39979.0
-11,Challenger SRT8 392,2012,33700.0,–,Manual,1,33500.0
+11,Challenger SRT8 392,2012,33700.0,Other,Manual,1,33500.0
 9,Equinox 2LT,2012,96653.0,Gasoline,A/T,1,7500.0
 11,Challenger SXT,2022,29500.0,Gasoline,A/T,1,31000.0
 43,911 Carrera,2021,7400.0,Gasoline,A/T,1,116999.0
@@ -3699,9 +3699,9 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 43,911 GT3 RS,2019,15509.0,Gasoline,A/T,1,229900.0
 14,Expedition Platinum,2020,69849.0,Gasoline,A/T,1,48149.0
 53,Tacoma PreRunner,2008,160000.0,Gasoline,A/T,1,17000.0
-53,Mirai Base,2016,40000.0,not supported,A/T,1,9500.0
+53,Mirai Base,2016,40000.0,Other,A/T,1,9500.0
 14,Explorer Sport Trac XLT,2007,228000.0,Gasoline,A/T,1,3850.0
-15,Sierra 1500 SLE1 Extended Cab,2008,187000.0,–,A/T,1,6100.0
+15,Sierra 1500 SLE1 Extended Cab,2008,187000.0,Other,A/T,1,6100.0
 36,C-Class C 300 Luxury,2015,102000.0,Gasoline,A/T,1,17000.0
 8,SRX Standard,2016,48000.0,Gasoline,A/T,1,24995.0
 10,Town & Country Touring-L,2012,163500.0,E85 Flex Fuel,A/T,1,5949.0
@@ -3917,11 +3917,11 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 9,Trailblazer SS,2008,161000.0,Gasoline,A/T,1,17000.0
 50,Impreza WRX,2005,90200.0,Gasoline,Manual,1,12499.0
 54,Passat 2.5 SE,2012,159870.0,Gasoline,A/T,1,9750.0
-43,911 Carrera Cabriolet,1996,38000.0,–,Other,1,75000.0
+43,911 Carrera Cabriolet,1996,38000.0,Other,Other,1,75000.0
 3,Q5 40 Premium,2022,14550.0,Hybrid,A/T,1,41500.0
 20,Q60 3.0t Red Sport 400,2018,38000.0,Gasoline,A/T,1,32000.0
 9,Camaro Z28,2002,35515.0,Gasoline,Manual,1,21000.0
-34,Protege DX,1993,94200.0,–,A/T,1,2500.0
+34,Protege DX,1993,94200.0,Other,A/T,1,2500.0
 36,SL-Class SL550 Roadster,2008,33300.0,Gasoline,A/T,1,34500.0
 36,C-Class C 300 4MATIC,2016,90189.0,Gasoline,A/T,1,17995.0
 26,Rover Range Rover Autobiography,2023,1148.0,Gasoline,A/T,1,193063.0
@@ -3951,7 +3951,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 3,A6 2.0T Sport,2018,49650.0,Gasoline,A/T,1,23750.0
 39,Altima 2.5 S,2015,149800.0,Gasoline,A/T,1,11600.0
 9,Blazer 1LT,2019,37161.0,Gasoline,A/T,1,26990.0
-11,Ram 3500 Quad Cab DRW,2000,188000.0,–,A/T,1,10000.0
+11,Ram 3500 Quad Cab DRW,2000,188000.0,Other,A/T,1,10000.0
 14,Transit Connect XLT,2016,111700.0,E85 Flex Fuel,A/T,1,15500.0
 36,S-Class S 550 4MATIC,2016,72784.0,Gasoline,A/T,1,34900.0
 8,Escalade Base,2007,150000.0,Gasoline,A/T,1,9999.0
@@ -3983,7 +3983,7 @@ brand,model,model_year,mileage,fuel_type,transmission_type,clean_title,price
 14,Bronco Badlands Advanced,2022,17000.0,Gasoline,A/T,1,69999.0
 51,SX4 Base,2013,99982.0,Gasoline,Manual,1,6900.0
 14,EcoSport SES,2019,106000.0,Gasoline,A/T,1,12000.0
-53,Land Cruiser Base,1994,178416.0,–,A/T,1,9000.0
+53,Land Cruiser Base,1994,178416.0,Other,A/T,1,9000.0
 17,Civic EX,2014,82500.0,Gasoline,CVT,1,15000.0
 36,Sprinter 2500 Standard Roof,2018,41500.0,Diesel,A/T,1,61000.0
 4,X3 xDrive28i,2015,92984.0,Gasoline,Other,1,17000.0
