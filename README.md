@@ -19,9 +19,7 @@ Source: used_cars.csv (original raw dataset)
 
 Cleaned file: clean_used_cars.csv
 
-Final features used:
-
-model_year, mileage, fuel_type, brand, model, transmission_type, clean_title, price (target variable)
+Final features used: model_year, mileage, fuel_type, brand, model, transmission_type, clean_title, price (target variable)
 
 Notes on preprocessing - 
 
