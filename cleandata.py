@@ -60,13 +60,16 @@ data = {
 
 df_new = pd.DataFrame(data)
 
-# show the first few rows
-print(df_new.head())
-
 # save to a new CSV file
 df_new.to_csv('clean_used_cars.csv', index=False)
 print("New simplified Databased saved as: 'used_cars_database.csv'")
 
-#to see the brand mapping
+#saving the brand_mapping into a text file to see brand encoding being used
 brand_map = dict(zip(encoder.classes_, encoder.transform(encoder.classes_)))
-print(f'Brand map: {brand_map}')
+with open('brand_map.txt','w') as file:
+    for brand, code in brand_map.items():
+        file.write(f'{brand}: {code}\n')
+print("Successfully created 'brand_map.txt'.")
+
+
+
