@@ -7,4 +7,5 @@ df = pd.read_csv('used_cars.csv')
 df['milage'] = df['milage'].str.replace('[, mi]','', regex=True)
 df['price'] = df['price'].str.replace('[, $]','', regex=True)
 
+
 print(df.head(1))
