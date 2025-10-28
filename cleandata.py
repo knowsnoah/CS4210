@@ -64,7 +64,7 @@ df_new = pd.DataFrame(data)
 print(df_new.head())
 
 # save to a new CSV file
-df_new.to_csv('used_cars_database.csv', index=False)
+df_new.to_csv('clean_used_cars.csv', index=False)
 print("New simplified Databased saved as: 'used_cars_database.csv'")
 
 #to see the brand mapping
