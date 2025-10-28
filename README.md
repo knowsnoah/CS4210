@@ -21,16 +21,10 @@ Cleaned file: clean_used_cars.csv
 
 Final features used:
 
-model_year
-mileage
-fuel_type
-brand
-model
-transmission_type
-clean_title
-price (target variable)
+model_year, mileage, fuel_type, brand, model, transmission_type, clean_title, price (target variable)
 
 Notes on preprocessing - 
+
 Removed symbols like $, ,, and mi from numerical columns.
 
 Encoded brand using LabelEncoder and stored the brand mapping in brand_map.txt.
