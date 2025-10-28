@@ -37,7 +37,7 @@ model = df['model']
 model_year = df['model_year']
 
 #getting fuel_type
-fuel_type = df['fuel_type']
+fuel_type = df['fuel_type'].fillna('Other')
 
 #tunring clean_title into true(1) or false(1) instead of Yes and No 
 clean_title = df['clean_title'].fillna('No').str.strip().str.title().map({"Yes": 1, "No": 1})
