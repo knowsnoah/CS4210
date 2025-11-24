@@ -1,0 +1,117 @@
+---
+title: "CS 4210 Project"
+author: "Ethan Owusu-Bour, David Carbajal, Noah Ojeda, and David Malone"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r Data}
+df = read.csv("R_used_cars.csv") 
+```
+
+
+```{r}
+df2 <- df[ , -c(1,2)]   # Removes columns 'brand' and 'model' for regression
+df2 <- na.omit(df2)     # Removes null values
+head(df2)
+```
+
+
+```{r}
+X <- model.matrix(price ~ ., data = df2)[, -1]
+y <- df2$price
+```
+
+
+
+```{r}
+# function to sum qualitative variables row wise
+safe_rowSums <- function(X, pattern) {
+  cols <- grep(pattern, colnames(X))
+  if (length(cols) == 0) {
+    message("No matches for pattern: ", pattern)
+    return(rep(0, nrow(X)))
+  } else {
+    m <- X[, cols, drop = FALSE]
+    stopifnot(nrow(m) == nrow(X))
+    return(rowSums(m))
+  }
+}
+
+# applies the function to qualitative variables in new data frame
+X_grouped <- data.frame(
+  fuel_type         = safe_rowSums(X, "fuel_type"),
+  transmission_type = safe_rowSums(X, "transmission_type"),
+  mileage           = X[, "mileage"],
+  model_year        = X[, "model_year"],
+  accident          = X[, "accident"],
+  clean_title       = X[, "clean_title"]
+)
+
+# combines the new data frame with the response variable
+df_grouped <- data.frame(y = y, X_grouped)
+```
+
+
+
+```{r Best Subset Selector}
+library(leaps)
+sub_sel <- regsubsets(y ~ ., data = df_grouped, nvmax = 19)
+sub_res <- summary(sub_sel)
+sub_res
+cat("The best model using BIC contains", which.min(sub_res$bic), "predictor.")
+```
+
+```{r}
+# bic plot of all 'best subsets'
+plot(sub_sel, scale = "bic")
+```
+
+
+```{r Data Split}
+# creates training and testing data
+n = nrow(df_grouped)
+set.seed(1) 
+train = sample(n, 0.9*n, replace = FALSE) 
+training = df_grouped[train,]
+testing = df_grouped[-train,]
+```
+
+
+
+```{r Regression}
+# regression using the best subset 
+reg <- lm(y ~ mileage, data = training)
+summary(reg)
+```
+
+
+```{r}
+predictions <- predict(reg, newdata = testing)
+mse <- mean((testing$y- predictions)^2)
+rmse <- sqrt(mse)
+cat("The RMSE of our model is:", sprintf("%.2f", rmse))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
