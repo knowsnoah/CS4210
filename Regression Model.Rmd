@@ -17,8 +17,23 @@ df = read.csv("R_used_cars.csv")
 
 
 ```{r}
+df <- na.omit(df)
+summary(df$price)
+```
+
+```{r}
+# Removes outliers using IQR since it's more robust
+q1 <- quantile(df$price, 0.25)
+q3 <- quantile(df$price, 0.75)
+iqr <- IQR(df$price)
+lower <- q1 -  (1.5*iqr)
+upper <- q3 + (1.5*iqr)
+df <- df[df$price >= lower & df$price <= upper, ]
+```
+
+
+```{r}
 df2 <- df[ , -c(1,2)]   # Removes columns 'brand' and 'model' for regression
-df2 <- na.omit(df2)     # Removes null values
 head(df2)
 ```
 
@@ -59,21 +74,6 @@ df_grouped <- data.frame(y = y, X_grouped)
 ```
 
 
-
-```{r Best Subset Selector}
-library(leaps)
-sub_sel <- regsubsets(y ~ ., data = df_grouped, nvmax = 19)
-sub_res <- summary(sub_sel)
-sub_res
-cat("The best model using BIC contains", which.min(sub_res$bic), "predictor.")
-```
-
-```{r}
-# bic plot of all 'best subsets'
-plot(sub_sel, scale = "bic")
-```
-
-
 ```{r Data Split}
 # creates training and testing data
 n = nrow(df_grouped)
@@ -84,26 +84,49 @@ testing = df_grouped[-train,]
 ```
 
 
+```{r Best Subset Selector}
+library(leaps)
+sub_sel <- regsubsets(y ~ ., data = training, nvmax = 19)
+sub_res <- summary(sub_sel)
+sub_res
+cat("The best model using BIC contains", which.min(sub_res$bic), "predictors.")
+```
+
+```{r}
+# bic plot of all 'best subsets'
+plot(sub_sel, scale = "bic")
+```
+
+
+
 
 ```{r Regression}
 # regression using the best subset 
-reg <- lm(y ~ mileage, data = training)
+reg <- lm(y ~ fuel_type + mileage + model_year + accident, data = training)
 summary(reg)
+```
+
+```{r Residual Plots}
+plot(reg, which = c(1,2), pch = 16)
+```
+
+
+```{r Log Regression}
+log_reg <- lm(log(y) ~ fuel_type + mileage + model_year + accident, data = training)
+summary(log_reg)
+plot(log_reg, which = c(1,2), pch = 16)
 ```
 
 
 ```{r}
-predictions <- predict(reg, newdata = testing)
+log_pred <- predict(log_reg, newdata = testing)
+predictions <- exp(log_pred)
+
 mse <- mean((testing$y- predictions)^2)
 rmse <- sqrt(mse)
+
 cat("The RMSE of our model is:", sprintf("%.2f", rmse))
 ```
-
-
-
-
-
-
 
 
 
