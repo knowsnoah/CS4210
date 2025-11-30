@@ -34,8 +34,6 @@ df = df[df['price'] >= lower_bound]
 df['price_log'] = np.log(df['price'])
 Y = df['price_log']
 
-
-
 #dividing the features by category or numerical
 categorical_features = ["brand", "fuel_type", "transmission_type", "model"]   # <-- ADDED brand here
 numerical_features = ["model_year", "mileage", "clean_title"]
